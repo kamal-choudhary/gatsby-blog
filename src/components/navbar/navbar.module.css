@@ -1,0 +1,21 @@
+.navigation {
+  box-sizing: border-box;
+  height: 70px;
+  background: purple;
+  text-align: right;
+  padding: 25px;
+}
+
+.navLink {
+  font-size: large;
+  letter-spacing: 1px;
+  margin: 20px;
+  color: white;
+  text-decoration: none;
+  transition: all 500ms;
+}
+
+.navLink:hover {
+  color: rgb(255, 38, 0);
+  font-size: 120%;
+}
